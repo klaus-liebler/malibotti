@@ -60,19 +60,23 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|131970000|123020000|a9033bda-f85b-4c92-a7d4-4344d4cc3376|6bfb244b-7e78-444a-8f87-9e542c8b0618",
+          "copper_edge_clearance|115614000|124186000|cd358ab6-5dc0-4c40-ace8-ddb284cd6f94|2ecb0eaf-abc9-419a-b7c2-46d70e2da172",
           ""
         ],
         [
-          "copper_edge_clearance|131970000|125780000|cd249fb5-9922-400f-a4d4-639f5c5ad789|e59f0952-d9b8-480f-8193-1c4cfa1a6dc4",
+          "copper_edge_clearance|115618000|123378000|cd358ab6-5dc0-4c40-ace8-ddb284cd6f94|211eb269-c407-4683-875c-915796092f5f",
           ""
         ],
         [
-          "lib_footprint_mismatch|115105000|100300000|41c988dc-87ed-43e9-bca2-e7cfb06f92e0|00000000-0000-0000-0000-000000000000",
+          "copper_edge_clearance|115723142|125024595|569cd53b-ef01-44d0-8360-c5e1ee6d4c41|faeaa1fa-e109-4248-9284-64b80ea1a8ef",
           ""
         ],
         [
-          "lib_footprint_mismatch|139000000|95595000|16da5d22-9cdc-435c-ab26-602917ab0430|00000000-0000-0000-0000-000000000000",
+          "copper_edge_clearance|119776000|123324000|3513d006-7c83-4724-88ba-16e7bd305b2f|cbb598d6-a047-4a3a-8bd0-329925a2a3b9",
+          ""
+        ],
+        [
+          "copper_edge_clearance|119782000|124222000|3513d006-7c83-4724-88ba-16e7bd305b2f|012798c1-c3c2-404c-b035-fdc8f9edaf4f",
           ""
         ],
         [
@@ -85,6 +89,26 @@
         ],
         [
           "silk_edge_clearance|167500000|86000000|3964c26b-09b7-4764-8115-6fc6f350605c|f2e0cdc1-3939-4792-92f9-58ceab5b46a9",
+          ""
+        ],
+        [
+          "silk_over_copper|113800000|123000000|287b6627-2f47-4dbc-a480-220c584cf352|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|113852444|124955010|18476f02-d913-452b-b27d-851db5e6071e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|115700000|124850000|66603120-2943-43e4-8f2d-58eb4a8083d0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|115700000|124882471|8b92f268-088e-4782-a2d6-229e750f3672|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|121500346|124187400|1e1b864a-054e-48ff-8bf2-22b1620980dc|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -117,7 +141,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -500,7 +524,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "drawing_robot.kicad_pro",
+    "filename": "malibotti.kicad_pro",
     "version": 3
   },
   "net_settings": {

@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd575_575555f5",
+    "visible_layers": "ffffffff_ffffffff_ffffd575_775555d5",
     "zone_display_mode": 0
   },
   "git": {
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "drawing_robot.kicad_prl",
+    "filename": "malibotti.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
