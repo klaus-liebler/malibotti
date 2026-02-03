@@ -5,119 +5,6 @@
 	(uuid "2517919f-773d-4a3c-88f8-53bb59ea46db")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -3115,6 +3002,18 @@
 		(uuid "c984b02a-6c3d-4f27-b000-74b691ccb106")
 	)
 	(no_connect
+		(at 74.93 118.11)
+		(uuid "cf1bf830-3a53-446f-9ff1-78a282e309e2")
+	)
+	(no_connect
+		(at 156.21 95.25)
+		(uuid "d13340ee-b2c6-40e2-80fc-7e092c06296d")
+	)
+	(no_connect
+		(at 74.93 115.57)
+		(uuid "d534178a-dbbb-4f91-8d3f-f67c1d8b0f08")
+	)
+	(no_connect
 		(at 24.13 78.74)
 		(uuid "df51a698-a424-4d8a-a395-0da1d930a7c5")
 	)
@@ -3282,28 +3181,8 @@
 		)
 		(uuid "e6a1736f-6630-40d2-952e-a77e1f9f8699")
 	)
-	(label "TX"
-		(at 74.93 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7cfe3e40-f9ee-4ecc-a484-f9fccdec6f99")
-	)
-	(label "RX"
-		(at 74.93 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db578171-5f1e-4a88-a4db-fa83f5984a78")
-	)
 	(global_label "SRV3"
-		(shape input)
+		(shape output)
 		(at 39.37 115.57 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3391,7 +3270,7 @@
 		)
 	)
 	(global_label "SRV1"
-		(shape input)
+		(shape output)
 		(at 74.93 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3435,7 +3314,7 @@
 		)
 	)
 	(global_label "SRV2"
-		(shape input)
+		(shape output)
 		(at 74.93 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4379,73 +4258,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 161.29 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d5dd0b5-55b3-4de2-a1bb-ea0607f17b1b")
-		(property "Reference" "J7"
-			(at 163.83 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RGB"
-			(at 163.83 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 161.29 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 161.29 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ad6666c-fc97-445b-94b1-d5d76ab842f2")
-		)
-		(instances
-			(project ""
-				(path "/2517919f-773d-4a3c-88f8-53bb59ea46db"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "liebler_MODULES:ESP32-C3_SUPERMINI_SMD")
 		(at 57.15 110.49 0)
 		(unit 1)
@@ -5278,72 +5090,6 @@
 			(project "drawing_robot"
 				(path "/2517919f-773d-4a3c-88f8-53bb59ea46db"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a1116c2-8226-4861-940a-b874a8af327e")
-		(property "Reference" "#PWR038"
-			(at 163.83 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f39403e-21c4-4da6-8001-7b18c8b21078")
-		)
-		(instances
-			(project "malibotti"
-				(path "/2517919f-773d-4a3c-88f8-53bb59ea46db"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7357,72 +7103,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 80.01 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4eb7733-306a-485a-a6c2-b34a8caeebd4")
-		(property "Reference" "J9"
-			(at 86.36 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RX"
-			(at 82.55 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 80.01 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 80.01 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c18b9557-99c5-4f7b-b729-d25d5df8fd81")
-		)
-		(instances
-			(project "malibotti"
-				(path "/2517919f-773d-4a3c-88f8-53bb59ea46db"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 90.17 110.49 0)
 		(unit 1)
@@ -7580,72 +7260,6 @@
 			(project "drawing_robot"
 				(path "/2517919f-773d-4a3c-88f8-53bb59ea46db"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 80.01 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7a30374-b68d-4256-ab81-3ea1762270d8")
-		(property "Reference" "J8"
-			(at 86.36 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TX"
-			(at 82.55 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 80.01 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 80.01 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07e4d505-86ce-497e-843d-f3d11ccaec22")
-		)
-		(instances
-			(project "malibotti"
-				(path "/2517919f-773d-4a3c-88f8-53bb59ea46db"
-					(reference "J8")
 					(unit 1)
 				)
 			)

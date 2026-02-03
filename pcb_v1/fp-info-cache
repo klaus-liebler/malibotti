@@ -1,4 +1,4 @@
-26970525997828469
+26990124716083816
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105616,6 +105616,13 @@ phoenix_contact connector MCV_01x04_G_3.5mm
 4
 4
 liebler_CONN
+PhoenixContact_MCV_1,5_5-G-3.81_1x05_P3.81mm_Vertical_smallerCourtyard
+Generic Phoenix Contact connector footprint for: MCV_1,5/5-G-3.81; number of pins: 05; pin pitch: 3.81mm; Vertical || order number: 1803455 8A 160V
+phoenix_contact connector MCV_01x05_G_3.81mm
+0
+5
+5
+liebler_CONN
 PhoenixContact_MC_0,5_4-G-2.5_1x04_P2.50mm_Horizontal
 Generic Phoenix Contact connector footprint for: MC_1,5/8-G-3.5; number of pins: 08; pin pitch: 3.50mm; Angled || order number: 1844278 8A 160V
 phoenix_contact connector MC_01x08_G_3.5mm
@@ -105664,6 +105671,13 @@ phoenix_contact connector MC_01x04_G_3.5mm
 0
 4
 4
+liebler_CONN
+PhoenixContact_MC_1,5_5-G-3.81_1x05_P3.81mm_Horizontal_smallerCourtyard
+Generic Phoenix Contact connector footprint for: MC_1,5/5-G-3.81; number of pins: 05; pin pitch: 3.81mm; Angled || order number: 1803303 8A 160V
+phoenix_contact connector MC_01x05_G_3.81mm
+0
+5
+5
 liebler_CONN
 PhoenixContact_MSTBV_2,5_2-G-5,08_1x02_P5.08mm_Vertical
 Generic Phoenix Contact connector footprint for: MSTBVA_2,5/2-G-5,08; number of pins: 02; pin pitch: 5.08mm; Vertical || order number: 1755736 12A || order number: 1924305 16A (HC)
@@ -105755,6 +105769,13 @@ RJ45_RJE72-188-1411
 0
 14
 13
+liebler_CONN
+RJ45_WithoutMagneticsTHT
+1 port ethernet throughhole connector, https://en.ninigi.com/product/rj45ge/pdf
+RJ45 ethernet 8p8c
+0
+10
+9
 liebler_CONN
 RJ45_aliexpress
 RJ45 + led + 10/100BaseT mag + PoE, Wurth P/N 7499211122a
@@ -106484,6 +106505,13 @@ Through hole angled pin header THT 1x04 2.54mm single row
 4
 4
 liebler_MODULES
+DCDC_MP2315_horizontal
+Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x04 2.54mm single row
+0
+4
+4
+liebler_MODULES
 DD0315NA_MODULE
 
 
@@ -106518,6 +106546,13 @@ EMW3162
 0
 7
 7
+liebler_MODULES
+ESP32-S3 chinese dev board
+
+
+0
+44
+44
 liebler_MODULES
 ESP32-S3-WROOM-1_handsolder
 ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
@@ -106637,6 +106672,20 @@ LM2596HV
 0
 4
 4
+liebler_MODULES
+LTC3780
+
+
+0
+4
+4
+liebler_MODULES
+LicheeRV_Nano
+
+
+0
+28
+28
 liebler_MODULES
 LilyGO_T-SIM7080G-S3
 
@@ -106771,6 +106820,13 @@ RT9400
 7
 7
 liebler_MODULES
+Radxa Zero 3E
+Through hole straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x20 2.54mm double row
+0
+40
+40
+liebler_MODULES
 SIM800L
 
 
@@ -106792,6 +106848,13 @@ SN65HVD230_MODULE
 4
 4
 liebler_MODULES
+TMC2209_MODULE
+
+
+0
+19
+19
+liebler_MODULES
 TPA3110_module
 
 
@@ -106805,6 +106868,13 @@ W5500-mini
 0
 12
 12
+liebler_MODULES
+XC7010_DCDC_ISOLATED_MODUEL
+
+
+0
+9
+9
 liebler_MODULES
 XCVR_SIM7080G
 
@@ -106970,6 +107040,13 @@ liebler_OPTO
 LED_1606
 
 
+0
+2
+2
+liebler_OPTO
+LED_LiteOn_LTST-C230
+
+LED reverse down facing
 0
 2
 2
