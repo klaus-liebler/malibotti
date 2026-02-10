@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd575_775555f0",
+    "visible_layers": "ffffffff_ffffffff_fffff575_f7555551",
     "zone_display_mode": 0
   },
   "git": {
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "malibotti.kicad_prl",
+    "filename": "malibotti_pcb_v2.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
