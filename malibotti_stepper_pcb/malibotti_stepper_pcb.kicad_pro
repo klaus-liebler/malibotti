@@ -51,67 +51,8 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|115614000|124186000|cd358ab6-5dc0-4c40-ace8-ddb284cd6f94|2ecb0eaf-abc9-419a-b7c2-46d70e2da172",
-          ""
-        ],
-        [
-          "copper_edge_clearance|115618000|123378000|cd358ab6-5dc0-4c40-ace8-ddb284cd6f94|211eb269-c407-4683-875c-915796092f5f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|115723142|125024595|569cd53b-ef01-44d0-8360-c5e1ee6d4c41|faeaa1fa-e109-4248-9284-64b80ea1a8ef",
-          ""
-        ],
-        [
-          "copper_edge_clearance|119776000|123324000|3513d006-7c83-4724-88ba-16e7bd305b2f|cbb598d6-a047-4a3a-8bd0-329925a2a3b9",
-          ""
-        ],
-        [
-          "copper_edge_clearance|119782000|124222000|3513d006-7c83-4724-88ba-16e7bd305b2f|012798c1-c3c2-404c-b035-fdc8f9edaf4f",
-          ""
-        ],
-        [
-          "silk_edge_clearance|138500000|127500000|a32cd620-fad4-4be3-be6f-73784ef4b3b8|c9eb5fcc-c2cd-4e70-b538-21444b602c73",
-          ""
-        ],
-        [
-          "silk_edge_clearance|147500000|127500000|a32cd620-fad4-4be3-be6f-73784ef4b3b8|0775429c-8c98-4958-a06d-82fbf072e01f",
-          ""
-        ],
-        [
-          "silk_edge_clearance|167500000|86000000|3964c26b-09b7-4764-8115-6fc6f350605c|f2e0cdc1-3939-4792-92f9-58ceab5b46a9",
-          ""
-        ],
-        [
-          "silk_over_copper|113800000|123000000|287b6627-2f47-4dbc-a480-220c584cf352|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|113852444|124955010|18476f02-d913-452b-b27d-851db5e6071e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|115700000|124850000|66603120-2943-43e4-8f2d-58eb4a8083d0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|115700000|124882471|8b92f268-088e-4782-a2d6-229e750f3672|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|121500346|124187400|1e1b864a-054e-48ff-8bf2-22b1620980dc|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -141,7 +82,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -239,12 +180,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.3,
-        0.6,
-        1.2
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -271,16 +207,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 1.2,
-          "drill": 0.6
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -524,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "malibotti.kicad_pro",
+    "filename": "malibotti_stepper.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -640,7 +567,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Referenz"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -684,7 +611,7 @@
   },
   "sheets": [
     [
-      "2517919f-773d-4a3c-88f8-53bb59ea46db",
+      "e3c0928e-588c-4cab-a021-dc1d90fa1136",
       "Root"
     ]
   ],

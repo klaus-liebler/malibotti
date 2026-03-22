@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 5,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd575_77555574",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffff5f",
     "zone_display_mode": 0
   },
   "git": {
@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "malibotti.kicad_prl",
+    "filename": "malibotti_stepper.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -91,11 +91,11 @@
       222,
       207,
       136,
-      92,
+      99,
       136,
+      140,
       136,
-      136,
-      98,
+      105,
       136,
       136
     ],
