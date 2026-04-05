@@ -5590,6 +5590,16 @@
 		)
 		(uuid "3d938c43-ad29-4e30-9968-9d3955da814d")
 	)
+	(label "RX"
+		(at 116.84 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d455e2c-87af-4441-acd6-79574f9f25ec")
+	)
 	(label "USBD-"
 		(at 77.47 121.92 0)
 		(effects
@@ -5642,7 +5652,7 @@
 			)
 		)
 	)
-	(global_label "RESET2"
+	(global_label "STEPPER_RESET"
 		(shape input)
 		(at 308.61 142.24 180)
 		(fields_autoplaced yes)
@@ -5654,7 +5664,7 @@
 		)
 		(uuid "19f8b883-a098-4805-b1db-805ab9955582")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.6702 142.24 0)
+			(at 290.627 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,6 +5687,72 @@
 		(uuid "1ff8c882-20e2-4a1e-bac6-b06925d317cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.1041 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STEPPER_RESET"
+		(shape output)
+		(at 36.83 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2917972b-1921-4575-be91-9e84eaa51f31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.847 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIR1"
+		(shape output)
+		(at 92.71 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "402c4d5c-a186-4002-8716-7b87a044d467")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.0495 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STEP1"
+		(shape output)
+		(at 92.71 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "482fb062-ee2e-4663-a4f8-9d1383e17e27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.5008 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,22 +5786,22 @@
 	)
 	(global_label "BUZZER"
 		(shape output)
-		(at 134.62 57.15 0)
+		(at 36.83 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6b4a0d66-4b6d-4e5b-be67-310ccdec6ef2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.0437 57.15 0)
+			(at 26.4063 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5774,6 +5850,28 @@
 			)
 		)
 	)
+	(global_label "STEPPER_RESET"
+		(shape input)
+		(at 130.81 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86f45f13-db0c-412b-803a-d6e75844981c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.827 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape bidirectional)
 		(at 92.71 73.66 0)
@@ -5818,7 +5916,7 @@
 			)
 		)
 	)
-	(global_label "SRV3"
+	(global_label "Servo1"
 		(shape output)
 		(at 92.71 68.58 0)
 		(fields_autoplaced yes)
@@ -5830,7 +5928,7 @@
 		)
 		(uuid "aaf7ff82-1bd8-4359-8ffd-eb379cfed1da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4728 68.58 0)
+			(at 102.1056 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5880,28 +5978,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESET1"
-		(shape input)
-		(at 130.81 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b295ba0f-03fb-48f8-bc22-ba14d50ef1d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.8702 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9064,7 +9140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -9079,7 +9155,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
