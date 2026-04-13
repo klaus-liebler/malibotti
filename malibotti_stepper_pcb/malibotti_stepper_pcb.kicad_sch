@@ -3553,6 +3553,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT_312"
+			(pin_names
+				(offset 1)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT_312"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "changeover single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_312_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_312_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "liebler_MECH:Buzzer"
 			(pin_names
 				(offset 0.0254)
@@ -4444,6 +4620,12 @@
 		(uuid "8043ae20-5941-4f9a-b027-6a9980c312dd")
 	)
 	(junction
+		(at 148.59 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90960b12-163e-4870-adf5-37cdfd7abb46")
+	)
+	(junction
 		(at 187.96 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4472,6 +4654,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0da2399-ba3e-4a78-a839-b7c6697b37fd")
+	)
+	(junction
+		(at 148.59 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5ca564f-57f1-4d5b-b022-484e54b5993f")
 	)
 	(junction
 		(at 175.26 144.78)
@@ -4552,6 +4740,12 @@
 		(uuid "e68733ad-cece-413b-872d-3c22ac8f2470")
 	)
 	(junction
+		(at 130.81 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8556eef-7459-4513-8330-147647622d78")
+	)
+	(junction
 		(at 154.94 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4584,6 +4778,14 @@
 		(uuid "59cb55ba-9cff-46b1-b062-0317b14428e9")
 	)
 	(no_connect
+		(at 144.78 99.06)
+		(uuid "5d7fc384-1439-41f1-ba7d-52b6673e6699")
+	)
+	(no_connect
+		(at 144.78 83.82)
+		(uuid "8d70b212-f87c-44ae-906e-c12deebb730e")
+	)
+	(no_connect
 		(at 67.31 135.89)
 		(uuid "970e9123-4fd5-4946-84f9-a9fe5d631754")
 	)
@@ -4614,6 +4816,26 @@
 			(type default)
 		)
 		(uuid "052cb908-5fad-4711-9627-e4a2549f1ec4")
+	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 148.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e17599-6b0e-4c64-bace-47fb335d1a0c")
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98) (xy 148.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09120d9d-ac3d-465c-9332-0c8ea1cff31d")
 	)
 	(wire
 		(pts
@@ -4657,6 +4879,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 88.9) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124e5c60-5244-46b3-874d-07daebea3787")
+	)
+	(wire
+		(pts
 			(xy 400.05 129.54) (xy 401.32 129.54)
 		)
 		(stroke
@@ -4694,6 +4926,26 @@
 			(type default)
 		)
 		(uuid "1a4ee30d-3fe4-4cab-ab74-e71c6021d934")
+	)
+	(wire
+		(pts
+			(xy 130.81 88.9) (xy 130.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1babf417-b90d-45a6-b42d-ab8a603147ba")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200505b5-484f-49e1-b178-2beae8ee00ad")
 	)
 	(wire
 		(pts
@@ -4787,6 +5039,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 86.36) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49960749-00ff-4bd6-afba-7ada6863f4b1")
+	)
+	(wire
+		(pts
 			(xy 401.32 128.27) (xy 397.51 128.27)
 		)
 		(stroke
@@ -4824,6 +5086,16 @@
 			(type default)
 		)
 		(uuid "52d9c589-9273-44f5-962a-232fdc6c1d54")
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98) (xy 151.13 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5305015b-0624-46e8-90ff-70ce71447486")
 	)
 	(wire
 		(pts
@@ -5147,6 +5419,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 104.14) (xy 144.78 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf678a4-8b94-4ad6-b752-4ff651ab6b8c")
+	)
+	(wire
+		(pts
 			(xy 336.55 147.32) (xy 353.06 147.32)
 		)
 		(stroke
@@ -5234,6 +5516,16 @@
 			(type default)
 		)
 		(uuid "c4f3a0ac-6cf8-41f6-910e-9b8773ce90f1")
+	)
+	(wire
+		(pts
+			(xy 148.59 88.9) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d4bf04-ef7f-452f-a475-d4e283ce9794")
 	)
 	(wire
 		(pts
@@ -5384,6 +5676,16 @@
 			(type default)
 		)
 		(uuid "f57b3831-3870-40b9-9887-271dba9456da")
+	)
+	(wire
+		(pts
+			(xy 130.81 86.36) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62d2901-76f0-4b6b-87c1-c69fb6751205")
 	)
 	(wire
 		(pts
@@ -5650,6 +5952,28 @@
 		(uuid "4cc1ba51-ab2e-471b-91a4-f1a3d8d254b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 167.9205 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUZZER"
+		(shape output)
+		(at 128.27 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68b1bc41-04ad-4977-ad1c-72b100c69a8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.8463 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,6 +9111,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT_312")
+		(at 139.7 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a08ae47-b065-462a-93ba-f6e675ff3710")
+		(property "Reference" "SW3"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MicroSwitchRight"
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "liebler_MECH:Omron D2F Right Angled"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "797ea77b-cc0a-4775-8689-102b90fa80ec")
+		)
+		(pin "2"
+			(uuid "3f25d93d-9cb8-4842-a7ce-fe740c7e5098")
+		)
+		(pin "3"
+			(uuid "d1677a7e-6534-484c-b898-f4b98229662f")
+		)
+		(instances
+			(project "malibotti_stepper_pcb"
+				(path "/e3c0928e-588c-4cab-a021-dc1d90fa1136"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 80.01 157.48 270)
 		(unit 1)
@@ -11712,6 +12107,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 148.59 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afa30828-a234-40de-96a2-bc898e3034c7")
+		(property "Reference" "#PWR051"
+			(at 148.59 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c694624c-2ce6-4e1c-a0d3-b7ae4ffa7f76")
+		)
+		(instances
+			(project "malibotti_stepper_pcb"
+				(path "/e3c0928e-588c-4cab-a021-dc1d90fa1136"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 190.5 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12259,6 +12719,77 @@
 			(project "malibotti_stepper"
 				(path "/e3c0928e-588c-4cab-a021-dc1d90fa1136"
 					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT_312")
+		(at 139.7 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6c0c190-79d7-410a-ae65-7b3525f2b4f3")
+		(property "Reference" "SW2"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MicroSwitchLeft"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "liebler_MECH:Omron D2F Left Angled"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5fbcc82-6362-4528-ac7f-17f90c49e2fb")
+		)
+		(pin "2"
+			(uuid "968ddd3a-c5a9-41be-9918-0d7dcdeb65dc")
+		)
+		(pin "3"
+			(uuid "c3ea1172-dbe1-4433-a6d8-fe33fa68fac5")
+		)
+		(instances
+			(project ""
+				(path "/e3c0928e-588c-4cab-a021-dc1d90fa1136"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
