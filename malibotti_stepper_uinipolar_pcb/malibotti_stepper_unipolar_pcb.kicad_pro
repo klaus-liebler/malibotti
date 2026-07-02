@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -247,6 +247,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 1.2,
+          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": false
@@ -507,7 +515,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "malibotti_stepper_pcb.kicad_pro",
+    "filename": "malibotti_stepper_unipolar_pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -674,18 +682,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "malibotti_stepper_pcb.kicad_sch",
-        "name": "malibotti_stepper_pcb",
+        "filename": "malibotti_stepper_unipolar_pcb.kicad_sch",
+        "name": "malibotti_stepper_unipolar_pcb",
         "uuid": "e3c0928e-588c-4cab-a021-dc1d90fa1136"
       }
     ],
-    "used_designators": "R26,J7,TP1,#PWR52",
+    "used_designators": "#PWR40-42,#PWR55-56,U1",
     "variants": []
   },
   "sheets": [
     [
       "e3c0928e-588c-4cab-a021-dc1d90fa1136",
-      "malibotti_stepper_pcb"
+      "malibotti_stepper_unipolar_pcb"
     ]
   ],
   "text_variables": {},
