@@ -1,0 +1,44 @@
+
+#include <Arduino.h>
+#include <AccelStepper.h>
+
+// STSPIN220 Stepper 1 – Pins aus Board-Definition (malibotti_stepper_v1.json)
+// PIN_STEPPER1_STEP = 10, PIN_STEPPER1_DIR = 4, PIN_STEPPER_RESET = 1
+
+// 28BYJ-48 (bipolar umverdrahtet) an STSPIN220
+// MODE1=GND, MODE2=GND → Full-Step
+// 32 Schritte/Motorumdrehung × Getriebe ~64:1 = 2048 Schritte/Ausgangsachsenumdrehung
+constexpr int STEPS_PER_REV = 2048;
+
+// AccelStepper im DRIVER-Modus: (STEP-Pin, DIR-Pin)
+AccelStepper stepper(AccelStepper::DRIVER, PIN_STEPPER1_STEP, PIN_STEPPER1_DIR);
+
+void setup() {
+    Serial.begin(115200);
+
+    // STSPIN220: STBY/RESET-Pin HIGH → Treiber aktiv (LOW = Standby/Reset)
+    pinMode(PIN_STEPPER_RESET, OUTPUT);
+    digitalWrite(PIN_STEPPER_RESET, HIGH);
+
+    stepper.setMaxSpeed(100);      // Schritte/s – reduziert zur Diagnose
+    stepper.setAcceleration(50);   // Schritte/s²
+
+    Serial.println("Stepper bereit – Rechts/Links-Rotation startet");
+}
+
+void loop() {
+    // Wenn Zielposition erreicht: nächste Richtung
+    if (stepper.distanceToGo() == 0) {
+        static bool rechts = true;
+        if (rechts) {
+            stepper.move(STEPS_PER_REV);   // eine Umdrehung rechts
+            Serial.println("Rechtsdrehung");
+        } else {
+            stepper.move(-STEPS_PER_REV);  // eine Umdrehung links
+            Serial.println("Linksdrehung");
+        }
+        rechts = !rechts;
+        delay(500); // kurze Pause zwischen den Drehrichtungen
+    }
+    stepper.run();
+}

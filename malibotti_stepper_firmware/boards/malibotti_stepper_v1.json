@@ -1,0 +1,50 @@
+{
+    "build": {
+        "core": "esp32",
+        "f_cpu": "160000000L",
+        "f_flash": "80000000L",
+        "flash_mode": "qio",
+        "extra_flags": 
+        [
+            "-DARDUINO_ESP32C3_DEV",
+            "-DARDUINO_USB_MODE=1",
+            "-DARDUINO_USB_CDC_ON_BOOT=1", 
+            "-DLED_TYPE_WS2812", 
+            "-DPIN_BUZZER=0",
+            "-DPIN_STEPPER_RESET=1",
+            "-DPIN_STEPPER2_STEP=2",
+            "-DPIN_STEPPER2_DIR=3",
+            "-DPIN_STEPPER1_DIR=4",
+            "-DPIN_SERVO1=5",
+            "-DPIN_SDA=6",
+            "-DPIN_SCL=7",
+            "-DPIN_LED=8",
+            "-DPIN_BUTTON=9",
+            "-DPIN_STEPPER1_STEP=10"            
+
+        ],
+        "mcu": "esp32c3",
+        "variant": "esp32c3"
+    },
+    "connectivity": [
+        "wifi",
+        "bluetooth"
+    ],
+    "debug": {
+        "openocd_target": "esp32c3.cfg"
+    },
+    "frameworks": [
+        "arduino",
+        "espidf"
+    ],
+    "name": "Nologo ESP32C3 SuperMini",
+    "upload": {
+        "flash_size": "4MB",
+        "maximum_ram_size": 327680,
+        "maximum_size": 4194304,
+        "require_upload_port": true,
+        "speed": 460800
+    },
+    "url": "https://www.nologo.tech/product/esp32/esp32c3/esp32c3supermini/esp32C3SuperMini.html",
+    "vendor": "Nologo"
+}
