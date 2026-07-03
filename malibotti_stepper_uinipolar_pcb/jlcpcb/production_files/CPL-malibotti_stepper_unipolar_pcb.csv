@@ -1,0 +1,35 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+BZ1,Buzzer,XDCR_CMT-7525-80-SMT-TR_handsolder,97.75,-79.75,0.0,bottom
+C10,u1,C_0402_1005Metric,96.95,-70.4,270.0,bottom
+C11,u1,C_0402_1005Metric,87.1,-126.8,270.0,bottom
+C12,22u,C_0805_2012Metric,85.05,-127.2,270.0,bottom
+C3,u1,C_0402_1005Metric,80.0,-95.25,0.0,bottom
+C5,22u,C_0805_2012Metric,96.45,-67.75,90.0,bottom
+C6,22u,C_0805_2012Metric,107.35,-76.25,270.0,bottom
+C9,u1,C_0402_1005Metric,96.0,-70.4,270.0,bottom
+D21,RGB3,SK6812MINI-E_REV,79.7375,-100.0,270.0,bottom
+H1,Hinge3040,Hinge_3040,120.5,-93.0,0.0,top
+J1,Stepper 1,JST_XH_5P_SMD,99.6,-96.2,180.0,bottom
+J2,Stepper 2,JST_XH_5P_SMD,88.52147,-103.449999,90.0,bottom
+J3,Servo,PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left,95.0,-88.1,90.0,bottom
+J4,I2C,JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal_SmallerCourtyard,101.1,-74.0725,180.0,top
+J5,USB_C_Receptacle_USB2.0_16P,USB_C_Receptacle_HRO_TYPE-C-31-M-12,90.15,-71.66,0.0,bottom
+J6,Serial,JST_XH_S4B-XH-A-1_1x04_P2.50mm_Horizontal_SmallerCourtyard,113.7,-74.0725,180.0,top
+R1,5k1,R_0402_1005Metric,87.85,-77.05,270.0,bottom
+R2,100R,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,101.05,-86.05,270.0,bottom
+R26,5k1,R_0402_1005Metric,83.55,-126.4,270.0,bottom
+R3,5k1,R_0402_1005Metric,105.15,-76.1,90.0,bottom
+R4,5k1,R_0402_1005Metric,103.3,-76.15,0.0,bottom
+R7,5k1,R_0402_1005Metric,91.8,-79.2,270.0,bottom
+R8,22R,R_0402_1005Metric,91.05,-76.6,270.0,bottom
+R9,22R,R_0402_1005Metric,88.8,-77.05,270.0,bottom
+SRV1,Servo SG90,SG90_vertical_PCB,113.0,-113.6,90.0,top
+ST1,Stepper 1,28BYJ-48,66.0,-82.0,45.0,top
+ST2,Stepper 2,28BYJ-48,66.0,-118.0,135.0,top
+SW1,RST,SW_Push_1P1T_NO_6x6mm_H6.5mm_Reverse,84.3,-120.45,90.0,bottom
+SW2,MicroSwitchLeft,Omron D2F Left Angled,63.99,-98.8,0.0,top
+SW3,MicroSwitchRight,Omron D2F Right Angled,64.01,-101.2,180.0,top
+SW8,BTN,SW_Push_1P1T_NO_6x6mm_H6.5mm_Reverse,87.382542,-84.391991,90.0,bottom
+U1,TBD62783A,SSOP-18_4.4x6.5mm_P0.65mm,99.2,-106.8,0.0,bottom
+U3,AMS1117,SOT-223-3_TabPin2,101.85,-69.65,0.0,bottom
+U5,ESP32-S3-MINI-1,ESP32-S2-MINI-1,95.55,-121.15,180.0,bottom
