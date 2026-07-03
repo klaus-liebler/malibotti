@@ -1,0 +1,53 @@
+#include <Arduino.h>
+
+// ESP32-S3 SuperMini – Hardware-Test: alle Stepper-Pins synchron blinken
+constexpr uint8_t PIN_PHASE1{21};
+constexpr uint8_t PIN_PHASE2{47};
+constexpr uint8_t PIN_PHASE3{34};
+constexpr uint8_t PIN_PHASE4{35};
+
+constexpr uint8_t PIN_PHASE21{36};
+constexpr uint8_t PIN_PHASE22{48};
+constexpr uint8_t PIN_PHASE23{33};
+constexpr uint8_t PIN_PHASE24{26};
+
+constexpr uint32_t BLINK_INTERVAL_MS{200};
+
+void setup() {
+  Serial.begin(115200);
+  delay(300);
+  Serial.println("Hardware-Test: Stepper-Pins blinken");
+
+  pinMode(PIN_PHASE1, OUTPUT);
+  pinMode(PIN_PHASE2, OUTPUT);
+  pinMode(PIN_PHASE3, OUTPUT);
+  pinMode(PIN_PHASE4, OUTPUT);
+  pinMode(PIN_PHASE21, OUTPUT);
+  pinMode(PIN_PHASE22, OUTPUT);
+  pinMode(PIN_PHASE23, OUTPUT);
+  pinMode(PIN_PHASE24, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(PIN_PHASE1, HIGH);
+  digitalWrite(PIN_PHASE2, HIGH);
+  digitalWrite(PIN_PHASE3, HIGH);
+  digitalWrite(PIN_PHASE4, HIGH);
+  digitalWrite(PIN_PHASE21, HIGH);
+  digitalWrite(PIN_PHASE22, HIGH);
+  digitalWrite(PIN_PHASE23, HIGH);
+  digitalWrite(PIN_PHASE24, HIGH);
+  Serial.println("ON");
+  delay(BLINK_INTERVAL_MS);
+
+  digitalWrite(PIN_PHASE1, LOW);
+  digitalWrite(PIN_PHASE2, LOW);
+  digitalWrite(PIN_PHASE3, LOW);
+  digitalWrite(PIN_PHASE4, LOW);
+  digitalWrite(PIN_PHASE21, LOW);
+  digitalWrite(PIN_PHASE22, LOW);
+  digitalWrite(PIN_PHASE23, LOW);
+  digitalWrite(PIN_PHASE24, LOW);
+  Serial.println("OFF");
+  delay(BLINK_INTERVAL_MS);
+}
