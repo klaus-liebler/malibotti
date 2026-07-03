@@ -1,0 +1,32 @@
+{
+  "name": "web_simple_sorter",
+  "version": "1.0.0",
+  "description": "WebUI for Simple Sorter",
+  "license": "MIT",
+  "author": "Klaus Liebler",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "upload": "node scripts/upload-scp.mjs",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@teachablemachine/image": "^0.8.5",
+    "@tensorflow/tfjs": "^1.3.1",
+    "lit": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/html-minifier-terser": "^7.0.2",
+    "@types/node": "^25.6.0",
+    "html-minifier-terser": "^7.2.0",
+    "ssh2-sftp-client": "^12.1.1",
+    "terser": "^5.46.1",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.8",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
