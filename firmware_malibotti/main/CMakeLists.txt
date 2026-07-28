@@ -1,4 +1,4 @@
-idf_component_register(SRCS "inverse_kinmartics.cc" "usb.cc" "main.cc"
+idf_component_register(SRCS "usb.cc" "main.cc"
                             "listener/echo_message_processor.cc"
                             "listener/rgb_message_processor.cc"
                             "listener/servo_message_processor.cc"

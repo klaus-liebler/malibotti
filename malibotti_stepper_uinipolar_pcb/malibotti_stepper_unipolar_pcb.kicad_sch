@@ -5209,6 +5209,12 @@
 		(uuid "47e5e95e-2007-443d-8b68-8ec4d87bf477")
 	)
 	(junction
+		(at 67.31 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51b534ab-b4cf-4bd6-8534-371cf507aa00")
+	)
+	(junction
 		(at 33.02 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5221,12 +5227,6 @@
 		(uuid "69d3f241-e0eb-4d3e-ba1a-0854ecfe8d1f")
 	)
 	(junction
-		(at 67.31 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "744dcff2-6c6f-4405-ae0c-a03432fc7e38")
-	)
-	(junction
 		(at 55.88 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5237,6 +5237,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8043ae20-5941-4f9a-b027-6a9980c312dd")
+	)
+	(junction
+		(at 72.39 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "868f0557-2691-4fb9-a3e2-88fd5c9e0b4a")
 	)
 	(junction
 		(at 149.86 54.61)
@@ -5460,7 +5466,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 124.46) (xy 55.88 124.46)
+			(xy 67.31 128.27) (xy 55.88 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5480,7 +5486,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 124.46) (xy 55.88 105.41)
+			(xy 55.88 128.27) (xy 55.88 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5490,7 +5496,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 121.92) (xy 57.15 110.49)
+			(xy 57.15 125.73) (xy 57.15 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5500,7 +5506,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 127) (xy 54.61 127)
+			(xy 67.31 130.81) (xy 54.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5517,16 +5523,6 @@
 			(type default)
 		)
 		(uuid "52d9c589-9273-44f5-962a-232fdc6c1d54")
-	)
-	(wire
-		(pts
-			(xy 67.31 115.57) (xy 67.31 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5656e731-86fa-48aa-8623-5b8379d55481")
 	)
 	(wire
 		(pts
@@ -5570,7 +5566,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 127) (xy 54.61 100.33)
+			(xy 54.61 130.81) (xy 54.61 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5610,7 +5606,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 110.49) (xy 67.31 115.57)
+			(xy 67.31 110.49) (xy 67.31 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5660,7 +5656,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 119.38) (xy 58.42 115.57)
+			(xy 58.42 123.19) (xy 58.42 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5780,7 +5776,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 121.92) (xy 57.15 121.92)
+			(xy 67.31 125.73) (xy 57.15 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5810,7 +5806,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 119.38) (xy 58.42 119.38)
+			(xy 67.31 123.19) (xy 58.42 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6733,6 +6729,85 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 67.31 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0477441e-36e0-4952-892e-e93e8be57ad5")
+		(property "Reference" "#PWR048"
+			(at 71.12 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 63.5 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 67.31 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1106b07e-f399-4398-a002-f59f35eea723")
+		)
+		(instances
+			(project "malibotti_stepper_unipolar_pcb"
+				(path "/e3c0928e-588c-4cab-a021-dc1d90fa1136"
+					(reference "#PWR048")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8040,7 +8115,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin")
-		(at 72.39 121.92 0)
+		(at 72.39 125.73 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8050,7 +8126,7 @@
 		(dnp no)
 		(uuid "3035db41-dd87-49bc-aeca-2e5dff0719c7")
 		(property "Reference" "J2"
-			(at 74.93 121.0055 0)
+			(at 74.93 126.6445 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8061,7 +8137,7 @@
 			)
 		)
 		(property "Value" "Stepper 2"
-			(at 74.93 123.5455 0)
+			(at 74.93 124.1045 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8072,7 +8148,7 @@
 			)
 		)
 		(property "Footprint" "liebler_CONN:JST_XH_5P_SMD"
-			(at 72.39 121.92 0)
+			(at 72.39 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8083,7 +8159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 121.92 0)
+			(at 72.39 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8094,7 +8170,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 121.92 0)
+			(at 72.39 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9455,85 +9531,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 72.39 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7810a978-f63d-4521-a7e3-3653bb29e9b6")
-		(property "Reference" "#PWR053"
-			(at 78.74 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 132.0799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e6b7900-92c8-4797-9105-a7f91b330921")
-		)
-		(instances
-			(project "malibotti_stepper_unipolar_pcb"
-				(path "/e3c0928e-588c-4cab-a021-dc1d90fa1136"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 46.99 182.88 0)
 		(unit 1)
@@ -10667,7 +10664,6 @@
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin")
 		(at 72.39 105.41 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10675,9 +10671,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "aecbfaff-ddcc-455f-8134-36becddde581")
 		(property "Reference" "J1"
-			(at 74.93 106.3245 0)
+			(at 74.93 104.4955 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10688,7 +10685,7 @@
 			)
 		)
 		(property "Value" "Stepper 1"
-			(at 74.93 103.7845 0)
+			(at 74.93 107.0355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11494,85 +11491,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 95.25 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8d28441-ad10-42e5-8f49-86b2b3656842")
-		(property "Reference" "#PWR050"
-			(at 78.74 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 95.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa6d6078-e614-4143-b9f2-da35c1d5bb26")
-		)
-		(instances
-			(project "malibotti_stepper_unipolar_pcb"
-				(path "/e3c0928e-588c-4cab-a021-dc1d90fa1136"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 21.59 26.67 270)
 		(unit 1)
 		(body_style 1)
@@ -11651,7 +11569,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 115.57 270)
+		(at 72.39 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11662,7 +11580,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc5b77a5-512c-4414-97bf-841ff04d8582")
 		(property "Reference" "#PWR049"
-			(at 60.96 115.57 0)
+			(at 78.74 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11673,17 +11591,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 111.76 90)
+			(at 76.2 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 115.57 0)
+			(at 72.39 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11694,7 +11613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 115.57 0)
+			(at 72.39 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11705,7 +11624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 115.57 0)
+			(at 72.39 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
